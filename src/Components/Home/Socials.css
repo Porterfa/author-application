@@ -10,11 +10,25 @@
 }
 
 td {
-    padding: 35px;
-    opacity: 70%;
+    padding: 25px;
 }
 
 a:visited { 
     text-decoration: none; 
     color: rgb(59, 59, 59); 
+}
+
+.image__insta {
+    width: 50px;
+    opacity: 60%;
+}
+
+.image__emails {
+    width: 65px;
+    opacity: 70%;
+}
+
+.image__amazon {
+    width: 75px;
+    opacity: 70%;
 }
