@@ -1,0 +1,39 @@
+.image {
+    width: 100%;
+    border: solid whitesmoke;
+    box-shadow: 0 2px 15px #000000;
+}
+
+.about__display {
+    justify-content: center;
+    background: #e7fbff;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px #063943;
+    margin-top: 10px;
+}
+
+.about__left {
+    padding: 40px;
+}
+
+.about__right {
+    padding-top: 40px;
+}
+
+.about__p {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.about__h {
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.about__email {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
