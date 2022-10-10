@@ -6,6 +6,7 @@ import Books from './Components/Books/Books';
 import NavBar from './Components/NavBar';
 import Footer from './Components/Footer';
 import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (

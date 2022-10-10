@@ -1,12 +1,12 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './NavBar.css';
-import {Nav, Navbar} from 'react-bootstrap';
-import {Link, NavLink} from 'react-router-dom';
+import {Nav, Navbar, NavLink } from 'react-bootstrap';
 
 function NavBar() {
     return(
         <div className="nav__all">
-            <Navbar>
+            <Navbar collapseOnSelect expand="sm" bg="backgroundcolor">
                 <Navbar.Toggle aria-controls="basic-navbar-nav"/>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
