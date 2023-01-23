@@ -10,7 +10,7 @@
 }
 
 td {
-    padding: 25px;
+    padding: 15px;
 }
 
 a:visited { 
@@ -31,4 +31,9 @@ a:visited {
 .image__amazon {
     width: 75px;
     opacity: 70%;
+}
+
+.image__tiktok {
+    width: 48px;
+    opacity: 60%;
 }

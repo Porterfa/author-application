@@ -1,17 +1,18 @@
 .display__section {
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
   padding-bottom: 20px;
+  padding-top: 20px;
   background: #ffff;
 }
 
-.book__display {
+/* .book__display {
   background: #e7fbff;
   justify-content: center;
   padding: 3rem;
   border-radius: 10px;
   box-shadow: 0 2px 15px #063943;
-}
+} */
 
 .right {
   color: #252e48;

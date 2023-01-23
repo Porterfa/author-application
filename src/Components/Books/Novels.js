@@ -2,8 +2,8 @@ import React from 'react';
 import './bookdisplay.css';
 import FeaturedNovel from './noveldisplay';
 import cchcover from './cchcover.jpg';
-import dfcover from './Final Defining Life Cover.png';
-import comingsoon from './Coming Soon.png';
+import dfcover from './Final Defining Life Cover.jpg';
+import ffcover from './Finding_Faith_EBOOK.jpg';
 
 function Novels() {
     return (
@@ -29,10 +29,11 @@ function Novels() {
                 </div>
                 <div className='novel__left col-lg-4 col-m-4"'>
                     <FeaturedNovel
-                    src={comingsoon}
+                    src={ffcover}
                     text1="Finding Faith"
                     text2="Young Adult Novella Coming Soon"
                     label="book"
+                    path="https://www.amazon.com/Finding-Faith-Sweet-Young-Romance-ebook/dp/B0BS9X3LGT"
                     />
                 </div>
             </div>
